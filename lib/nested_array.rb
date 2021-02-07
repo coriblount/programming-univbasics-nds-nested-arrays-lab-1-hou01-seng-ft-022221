@@ -1,22 +1,24 @@
 # Examples inspired by U. S. National Organic Standards
 
 ORGANIC_PRODUCE = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
+ [ "Strawberries", #0
+  "Potatoes", #1
+  "Grapes", #2
+  "Avocadoes", #3
+  "Asparagus"] #4
 ]
 
 CONVENTIONAL_PRODUCE = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
+  # 0
+ [ "Grapefruit",
+  "Pineapple", #1
+  "Oranges",#2
+  "Watermelon", #3
+  "Eggplant"] #4
 ]
 
 def assembled_matrix
+  
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
