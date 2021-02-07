@@ -1,21 +1,21 @@
 # Examples inspired by U. S. National Organic Standards
 
-ORGANIC_PRODUCE = [
+ORGANIC_PRODUCE = 
  [ "Strawberries", #0
   "Potatoes", #1
   "Grapes", #2
   "Avocadoes", #3
   "Asparagus"] #4
-]
 
-CONVENTIONAL_PRODUCE = [
+
+CONVENTIONAL_PRODUCE = 
   # 0
  [ "Grapefruit",
   "Pineapple", #1
   "Oranges",#2
   "Watermelon", #3
   "Eggplant"] #4
-]
+
 
 def assembled_matrix
  [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
